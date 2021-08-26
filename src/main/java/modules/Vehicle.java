@@ -142,4 +142,5 @@ public class Vehicle {
            return con.createQuery(getAll).executeAndFetch(Vehicle.class);
         }
     }
+
 }
